@@ -33,13 +33,6 @@ python prepare_data.py
 # Output: dataset/, training_data.json
 ```
 
-**Dataset Preprocessing**
-```bash
-python reprocess_dataset.py
-# Crops images to remove UI elements
-# Output: dataset_cropped/
-```
-
 **Training**
 ```bash
 python train.py
